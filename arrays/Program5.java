@@ -22,6 +22,11 @@ public static void main(String[] args)
 {
 	int[] a1 = {20,10,30,40};
 	selectionSort(a1);
+
+    for (int i=0; i<a1.length;i++)
+    {
+       System.out.println(a1[i]);    
+    }
 }
 }
 

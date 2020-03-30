@@ -21,6 +21,11 @@ public static void main(String[] args)
 {
 	int[] a1 = {40,30,20,10};
 	insertionSort(a1);
+
+    for(int i=0; i<a1.length; i++)
+    {
+        System.out.println(a1[i]);
+    }
 }
 }
 
