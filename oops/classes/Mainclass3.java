@@ -61,6 +61,8 @@ class Mainclass3
 
     a1.showBal();
 
+    a3.showBal();
+
     System.out.println("Program ends..."); 	
   }
 }
