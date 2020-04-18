@@ -37,7 +37,6 @@ class Mainclass2
        v2.sendMsg();
        v2.voiceMsg();
 
-       
        System.out.println("----------------------");
   
        WhatsappV3 v3 = new WhatsappV3();
