@@ -17,7 +17,7 @@ class Subclass extends Superclass
 {
 	public Subclass()
 	{
-	  super(10);//call superclass() const..
+	  //super();//call superclass() const..
 	  System.out.println("this is Subclass() const");
 	}	
 }
@@ -28,7 +28,7 @@ class Mainclass4 extends Object
 	{
 	   System.out.println("Program starts...");
        
-       new Subclass();
+       new Superclass();
 
 	   System.out.println("Program ends...");
 	}
