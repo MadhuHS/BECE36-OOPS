@@ -9,7 +9,7 @@ interface Run2
    public void test();
 }
 
-class Demo3 implements Run1,Run2
+class Demo3 extends Object implements Run1,Run2
 {
    @Override
    public void test()
